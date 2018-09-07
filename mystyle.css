@@ -1,0 +1,51 @@
+.barAtTop{
+    height: 50px;
+    width: 100%;
+    background-color: #F9E595;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+body{
+    font-family: arial;
+}
+.travelAdvisory{
+    font-size: 13px;
+    position: absolute;
+    top: 5px;
+    left: 110px;
+}
+.closeTopBar{
+    font-size: 13px;
+    position: absolute;
+    top: 2px;
+    left: 1130px;
+    color: #C6A262 ;
+}
+.navBar{
+    position: absolute;
+    top: 50px;
+    background-color: #01426B;
+    height: 122px;
+    left: 0px;
+    width: 100%;
+}
+.navBarLinks{
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 240px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.whereWeFly{
+    position: relative;
+    top: -42px;
+    left: 100px;
+}
+.travelingWithUs{
+    position: relative;
+    top: -85px;
+    left: 260px;
+}
+
