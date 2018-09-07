@@ -4,6 +4,9 @@
 
 updated 9/7/2018
 
+GitHub Pages:
+
+https://arrowson.github.io/alaskaAir-HTML-CSS/
 ---
 #### Description
 ###### This is a pet project to enhance my understanding of HTML5 and CSS. I plan to recreate the Alaskaair.com website with pure HTML and CSS without touching bootstrap in any way. As this will not include any programming language such as Javascript, the website will be practically functionless apart from the links being active. This is not a test of logic, rather of design principles. 
