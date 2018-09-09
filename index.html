@@ -8,6 +8,8 @@
 <link rel = "stylesheet" type = "text/css" href = "mystyle.css" />
 </head>
 <body>
+<div class= "verticalBoundary">
+</div>
 <div class="barAtTop">
 	<p class="travelAdvisory">
 		<b>
@@ -20,11 +22,67 @@
 <div class= "navBar">
 	<img src="images/Alaska.JPG">
 	<div class="navBarLinks">
-		<p>Book</p>
-		<p class="whereWeFly"> Where we fly</p>
-		<p class="travelingWithUs"> Traveling with us</p>
+		<!--navBarLinks
+		TODO: MAKE THESE DIVS INSTEAD OF PARAGRAPHS. ADD PADDING TO EACH CLASS OF DIV TO ENSURE
+		THE CORRECT AMOUNT OF SPACE IS BETWEEN EACH OF THE DIVS.
+		
+		DONE: 9/7/2018
+		-->
+		<div class = "book">
+			<p>Book</p>
+		</div>
+		<div class = "whereWeFly">
+			<p>
+				Where we fly
+			</p>
+		</div>
+		<div class="travelingWithUs">
+			<p>
+				Traveling with us
+			</p>
+		</div>
+		<div class = "mileagePlan">
+			<p>
+				Mileage Plan®
+			</p>
+		</div>
+		<input type="text" name="search" class="search" placeholder="search"/>
+		<img src="images/hourglass.png" class="searchglass"/>
+		<!--
+		
+		TODO: Create a larger DIV to hold these smaller links with general styles added to it rather
+		than each individual link.
+		
+		-->
+		<div Class = "signIn">
+			<p>
+				Sign In
+			</p>
+		</div>
+		<div Class = "signUp">
+			<p>
+				Sign Up
+			</p>
+		</div>
+		<div Class = "cart">
+			<p>
+				Cart
+			</p>
+		</div>
+		<div Class = "contactUs">
+			<p>
+				Contact Us
+			</p>
+		</div>
+		<div Class = "espanol">
+			<p>
+				Español
+			</p>
+		</div>
 	</div>
 </div>
+<img src="images/sunset.jpg" class = "backgroundImage"/>
+
 
 </body>
 </html>

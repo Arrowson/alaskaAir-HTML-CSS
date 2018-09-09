@@ -1,3 +1,11 @@
+.verticalBoundary{
+    border-left: 100px black solid;
+    z-index: 100;
+    height: 100%;
+    position: absolute;
+    left: 1152px;
+    top: -20px;
+}
 .barAtTop{
     height: 50px;
     width: 100%;
@@ -35,17 +43,88 @@ body{
     position: absolute;
     top: 35px;
     left: 240px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 .whereWeFly{
     position: relative;
-    top: -42px;
-    left: 100px;
+    top: -47px;
+    margin-left: 80px;
 }
 .travelingWithUs{
     position: relative;
-    top: -85px;
-    left: 260px;
+    top: -95px;
+    margin-left: 240px;
 }
-
+.mileagePlan{
+    position: relative;
+    top: -144px;
+    margin-left: 450px;
+}
+.search{
+    position: relative;
+    top: -195px;
+    margin-left: 650px;
+    border: none;
+    background-color: #023249;
+    height: 29px;
+    border-radius: 5px;
+    padding-left: 15px;
+    color: white;
+}
+.searchglass{
+    position: relative;
+    top: -225px;
+    margin-left: 785px;
+    height: 29px;
+    padding-left: 15px;
+    width: 25px;
+}
+.whereWeFly:hover,
+.travelingWithUs:hover,
+.book:hover,
+.mileagePlan:hover{
+    text-decoration: underline;
+}
+.signIn{
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    top: -320px;
+    left: 500px;
+}
+.signUp{
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    top: -353px;
+    left: 575px;
+}
+.cart{
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    top: -387px;
+    left: 655px;
+}
+.contactUs{
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    top: -421px;
+    left: 720px;
+}
+.espanol{
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    top: -455px;
+    left: 820px;
+}
+.backgroundImage{
+    position: relative;
+    top: 164px;
+    left: -10px;
+    width:1154px;
+    height: 500px;
+}
